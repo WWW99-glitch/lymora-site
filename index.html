@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lymora – Réveil à missions</title>
 <meta name="theme-color" content="#0D0B1E">
-<!-- Copie de docs/site (générée par outils-test/site.mjs depuis src/config/legal.ts), mise en ligne sur GitHub Pages (https://app.lymorafr.com) le 04/11/2026. Seul changement fait à la main : l'hébergeur, dans index.html. Le lot 39 reporte ce changement dans src/config/legal.ts. -->
+<!-- Page générée par outils-test/site.mjs depuis src/config/legal.ts (les mêmes textes que dans l'app). Ne pas modifier à la main. -->
 <style>
   :root{--fond:#0D0B1E;--carte:#17142E;--texte:#EDEAF7;--doux:#B5AFCF;--lavande:#C9B8F5;--rose:#F25FA8}
   *{box-sizing:border-box}
@@ -28,6 +28,11 @@
   details p{margin:10px 0 0}
   a{color:var(--rose)}
   footer{margin-top:48px;color:var(--doux);font-size:14px}
+  .editeur,details.mentions{margin:20px 0 0;color:var(--doux);font-size:13px;line-height:1.5}
+  details.mentions{background:none;border-radius:0;padding:0}
+  .mentions summary{list-style:none;font-weight:500;text-decoration:underline;padding:10px 0}
+  .mentions summary::-webkit-details-marker{display:none}
+  .editeur p,.mentions p{color:var(--doux);margin:6px 0 0}
 </style>
 </head>
 <body>
@@ -41,15 +46,16 @@
   </div>
   <div class="contact">
     <strong>Contact</strong><br>
-    E-⁠mail : <a href="mailto:contact@lymorafr.com">contact@lymorafr.com</a><br>
-    Réponse sous : 48 heures (jours ouvrés)
+    E-⁠mail : <a href="mailto:contact@lymorafr.com">contact@lymorafr.com</a>
   </div>
-  <h2>Mentions légales</h2>
-  <p>Éditeur : Wail Kaddouri EI, entrepreneur individuel, 3 square de Provence, 95470 Fosses, France. SIRET : 938 418 720 00018. Téléphone : +33 6 70 65 97 66. E-⁠mail : <a href="mailto:contact@lymorafr.com">contact@lymorafr.com</a>.</p>
-  <p>Directeur de la publication : Wail Kaddouri.</p>
-  <p>Hébergeur du site : GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>
-  <p>Ce site n’utilise ni cookie ni outil de statistiques. GitHub, qui l’héberge, enregistre l’adresse IP des visiteurs pour des raisons de sécurité.</p>
   <footer>Lymora · Wail Kaddouri EI · <a href="confidentialite.html">Confidentialité</a> · <a href="conditions.html">Conditions</a> · <a href="assistance.html">Assistance</a></footer>
+  <details class="mentions">
+    <summary>Mentions légales</summary>
+    <p>Éditeur : Wail Kaddouri EI, entrepreneur individuel, 3 square de Provence, 95470 Fosses, France. SIRET : 938 418 720 00018. Téléphone : +33 6 70 65 97 66. E-⁠mail : <a href="mailto:contact@lymorafr.com">contact@lymorafr.com</a>.</p>
+    <p>Directeur de la publication : Wail Kaddouri.</p>
+    <p>Hébergeur du site : GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>
+    <p>Ce site n’utilise ni cookie ni outil de statistiques. GitHub, qui l’héberge, enregistre l’adresse IP des visiteurs pour des raisons de sécurité.</p>
+  </details>
 </main>
 </body>
 </html>
